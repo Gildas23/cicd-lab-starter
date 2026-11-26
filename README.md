@@ -2,7 +2,7 @@
 
 A small Express and TypeScript app for the CI/CD Crash Course. Use this starting point to follow along with automated testing, GitHub Actions, and deployment to Render.
 
-The starter includes a home page, a health endpoint, and a passing health endpoint test. You will add the combined `verify` script, GitHub Actions workflow, and version endpoint during the course.
+The starter includes a home page, a health endpoint, a passing health endpoint test, a combined `verify` script, and a GitHub Actions workflow. You will add the version endpoint during the course.
 
 ## Requirements
 
@@ -40,6 +40,7 @@ Stop the server with Ctrl+C.
 - `npm run typecheck`: check TypeScript without generating output.
 - `npm test`: run the health endpoint test. The test starts and stops its own server.
 - `npm run build`: compile the app into `dist`.
+- `npm run verify`: run type checking, tests, and the build.
 - `npm start`: run the compiled app after building it.
 
 ## Start your own repository
@@ -62,7 +63,7 @@ git remote add origin https://github.com/YOUR_USERNAME/cicd-lab.git
 git push -u origin main
 ```
 
-Continue with the course to add verification and deployment. Keep `package-lock.json` committed; dependencies, build output, and environment files are excluded by `.gitignore`.
+Continue with the course to add the version endpoint and deployment. Keep `package-lock.json` committed; dependencies, build output, and environment files are excluded by `.gitignore`.
 
 ## Configuration
 
